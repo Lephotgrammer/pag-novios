@@ -44,7 +44,7 @@ $mail->Body = $message;
 
 $mail->Subject = 'Nuevo invitado';
 
-$mail->AddAddress('denniszunig@gmail.com');
+$mail->AddAddress('info@unaeternidadjuntos.cl');
 
 if(!$mail->Send()) {
 	die('Error '.$mail->ErrorInfo);
